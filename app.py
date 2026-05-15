@@ -9,14 +9,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 from bs4 import BeautifulSoup
 import ast
 
-# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Belgium Street Art Explorer",
     page_icon=None,
     layout="wide",
 )
 
-# ── Global CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
 
