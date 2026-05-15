@@ -15,5 +15,7 @@ Street Art Cities https://streetartcities.com
 Dataset: Belgian artworks export, May 2026
 
 Model
-BLIP Image Captioning (base) — Salesforce Research
+BLIP Image Captioning (base)
+
+Salesforce Research
 https://huggingface.co/Salesforce/blip-image-captioning-base

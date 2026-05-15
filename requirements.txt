@@ -1,0 +1,9 @@
+streamlit
+folium
+streamlit-folium
+transformers
+torch
+Pillow
+scikit-learn
+beautifulsoup4
+pandas
