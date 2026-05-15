@@ -23,7 +23,6 @@ st.markdown("""
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding: 0 3rem 3rem 3rem; max-width: 100%; }
 
-/* ── Hero ── */
 .hero-wrap {
     position: relative;
     padding: 0 0 1rem 0;
@@ -219,8 +218,6 @@ li[role="option"]:hover {
 .archive-collection-label { font-size: 0.7rem; letter-spacing: 0.06em; color: #888; padding: 1rem 0 0.25rem 0; }
 .archive-search-label { font-size: 0.72rem; color: #888; margin-bottom: 0.5rem; }
             
-
-/* ── File uploader ── */
 [data-testid="stFileUploader"] {
     background: transparent;
     border: none;
@@ -243,7 +240,6 @@ li[role="option"]:hover {
     color: #1A1A1A !important;
 }
 
-/* Browse files button */
 [data-testid="stFileUploader"] section button {
     background: #1A1A1A !important;
     color: #F9FCFF !important;
@@ -261,13 +257,11 @@ li[role="option"]:hover {
     color: #1A1A1A !important;
 }
 
-/* Uploaded file row */
 [data-testid="stFileUploader"] > div > div:last-child {
     background: transparent !important;
     border: 1px solid #C8C5BF !important;
 }
 
-/* Cancel button only */
 [data-testid="stFileUploader"] > div > div:last-child button {
     background: transparent !important;
     border: none !important;
@@ -277,8 +271,6 @@ li[role="option"]:hover {
     fill: #1A1A1A !important;
     stroke: #1A1A1A !important;
 }
-
-/* ── AI caption box ── */
 
 .ai-caption-label {
     font-size: 0.8rem;
@@ -294,7 +286,6 @@ li[role="option"]:hover {
     margin-bottom: 0.5rem;
 }
 
-/* ── Section label ── */
 .section-label {
     font-size: 0.8rem;
     color: #888;
@@ -330,8 +321,6 @@ def get_year(date_str):
     except:
         return ""
 
-
-# Data loading
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/Month-2026-05.csv", low_memory=False)
@@ -347,7 +336,6 @@ def load_data():
         + df["artist1_title"].fillna("")
     )
     return df
-
 
 # BLIP model
 @st.cache_resource(show_spinner="Loading model...")
