@@ -1,4 +1,6 @@
-Belgium Street Art Explorer
+# Belgium Street Art Explorer
+
+**Live app:** https://street-art-explorer-3jbirzwz9xhzjdnx64xs5a.streamlit.app
 
 The dataset comes from Street Art Cities, a community platform that documents street art worldwide. I used the dataset they provided of street artworks collected across Belgium, containing 7,199 pieces of work. Each record contains the title, artist names, location of the work, and a short description.
 
